@@ -1,0 +1,51 @@
+page-cadastro {
+    .textosinputs {
+        color: black;
+        background-color: white;
+        font-family: "Amaranth";
+    }    
+
+    .qwerty {
+        background-color: #ee6e73;
+    }
+
+    .titulo {
+        width:220px;
+        height:220px;
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        font-family: Amaranth, sans-serif;
+        position:absolute;
+        top:20%;
+        left:50%;
+        margin-left:-110px;
+    }
+
+    .inputs {
+        width:300px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin-top:-50px;
+        margin-right:-50px;
+        margin-bottom:-50px;
+        margin-left:-150px;
+    }
+
+    .botao{
+        font-family: Amaranth, sans-serif;        
+        width:270px;
+        height:200px;
+        color: black;
+        background-color: white;
+    }
+
+    .footer{
+        font-family: Amaranth, sans-serif;        
+  
+        color: black;
+        background-color: white;       
+    }
+
+}
