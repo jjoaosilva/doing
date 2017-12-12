@@ -5,11 +5,17 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { CadastroPage } from '../pages/cadastro/cadastro';
+import { FeedPage } from '../pages/feed/feed';
+
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = HomePage;
+
+  home = HomePage;
+  feed = FeedPage;
+
+  rootPage:any = this.home;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
@@ -19,5 +25,10 @@ export class MyApp {
       splashScreen.hide();
     });
   }
+  
+  openPage(opcao){
+    this.rootPage = opcao;
+  };
+
 }
 
