@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams, AlertController } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 @Component({
   selector: 'page-cadastro',
@@ -11,4 +12,7 @@ export class CadastroPage {
 
   }
 
+  home(){
+    this.navCtrl.setRoot(HomePage);  
+  }
 }

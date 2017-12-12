@@ -9,7 +9,7 @@ import { CadastroPage } from '../pages/cadastro/cadastro';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage:any = CadastroPage;
+  rootPage:any = HomePage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
