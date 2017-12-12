@@ -14,6 +14,7 @@ export class MyApp {
 
   home = HomePage;
   feed = FeedPage;
+  cadastro = CadastroPage;
 
   rootPage:any = this.home;
 
