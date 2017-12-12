@@ -1,14 +1,31 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="qwerty" padding>
+
+  <label class="titulo"> doing </label>
+
+  <ion-list class = "inputs">
+      <ion-item class = "textosinputs">
+        <ion-input type="text" placeholder="Nome do usuario"></ion-input>
+      </ion-item>
+
+      <br>
+
+      <ion-item class = "textosinputs">
+        <ion-input type="password" placeholder="****************"></ion-input>
+      </ion-item>
+
+      <br>
+
+      <button ion-button color="light" block class = "textosinputs"> <label> Log In </label> </button>
+
+  </ion-list>
+  
+  <ion-footer class = "textosinputs">
+    <button ion-button color="light" block class = "textosinputs"> <label> Cadastrar </label> </button>
+  </ion-footer>
+  
+    
 </ion-content>
