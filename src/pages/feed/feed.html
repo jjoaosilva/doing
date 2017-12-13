@@ -1,23 +1,36 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      <label>doing</label>
-      <ion-icon name="ios-contact-outline"></ion-icon>
-    </ion-title>
 
-    <button menuToggle="left">
-      <ion-icon name="menu"></ion-icon>
-    </button>
+    <ion-row>
+        <ion-col>
+          <button ion-button color="light" menuToggle clear>
+              <ion-icon name="menu"></ion-icon>
+            </button>      
+        </ion-col>
+
+        <ion-col>
+          <ion-title>
+              <label class = "titulo">doing</label>
+              <ion-icon color="light" name="ios-contact-outline"></ion-icon>
+            </ion-title>
+        </ion-col>
+
+        <ion-col>
+            <button class = "chatBotton" ion-button color="light" clear>
+              <ion-icon name="ios-chatbubbles-outline"></ion-icon>
+            </button>      
+          </ion-col>
+    </ion-row>
 
   </ion-navbar>
 </ion-header>
+
 <ion-content>
 
   <ion-card>
-
       <ion-item>
         <ion-avatar item-start>
-          <img src="./assets/imgs/gatinhofofo.jpg">
+          <img src="./assets/imgs/perfil.jpg">
         </ion-avatar>
         <h2>User Name</h2>
       </ion-item>
@@ -31,37 +44,84 @@
       <ion-row>
 
         <ion-col>
-          <button ion-button icon-left clear small>
+          <button class = "rate" ion-button icon-left clear small>
               <ion-icon name="ios-star-outline"></ion-icon>
           </button>
         </ion-col>
 
         <ion-col>
-          <button ion-button icon-left clear small>
+          <button class = "rate" ion-button icon-left clear small>
               <ion-icon name="ios-star-outline"></ion-icon>
           </button>
         </ion-col>
         
         <ion-col>
-          <button ion-button icon-left clear small>
+          <button class = "rate" ion-button icon-left clear small>
               <ion-icon name="ios-star-outline"></ion-icon>
           </button>
         </ion-col>
         
         <ion-col>
-          <button ion-button icon-left clear small>
+          <button class = "rate" ion-button icon-left clear small>
               <ion-icon name="ios-star-outline"></ion-icon>
           </button>
         </ion-col>
         
         <ion-col>
-          <button ion-button icon-left clear small>
+          <button class = "rate" ion-button icon-left clear small>
               <ion-icon name="ios-star-outline"></ion-icon>
           </button>
         </ion-col>
+    </ion-row>
+  </ion-card>
 
-      </ion-row>
-    </ion-card>
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="./assets/imgs/perfil.jpg">
+      </ion-avatar>
+      <h2>User Name</h2>
+    </ion-item>
+  
+    <img src="./assets/imgs/pugFofo.png">
+  
+    <ion-card-content>
+      <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+    </ion-card-content>
+  
+    <ion-row>
+
+      <ion-col>
+        <button class = "rate" ion-button icon-left clear small>
+            <ion-icon name="ios-star-outline"></ion-icon>
+        </button>
+      </ion-col>
+
+      <ion-col>
+        <button class = "rate" ion-button icon-left clear small>
+            <ion-icon name="ios-star-outline"></ion-icon>
+        </button>
+      </ion-col>
+      
+      <ion-col>
+        <button class = "rate" ion-button icon-left clear small>
+            <ion-icon name="ios-star-outline"></ion-icon>
+        </button>
+      </ion-col>
+      
+      <ion-col>
+        <button class = "rate" ion-button icon-left clear small>
+            <ion-icon name="ios-star-outline"></ion-icon>
+        </button>
+      </ion-col>
+      
+      <ion-col>
+        <button class = "rate" ion-button icon-left clear small>
+            <ion-icon name="ios-star-outline"></ion-icon>
+        </button>
+      </ion-col>
+  </ion-row>
+</ion-card>
 
 </ion-content>
         
