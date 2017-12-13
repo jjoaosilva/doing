@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { FeedPage } from '../pages/feed/feed';
+import { PerfilPage } from '../pages/perfil/perfil';
 
 @Component({
   templateUrl: 'app.html'
@@ -15,6 +16,7 @@ export class MyApp {
   home = HomePage;
   feed = FeedPage;
   cadastro = CadastroPage;
+  perfil = PerfilPage;
 
   rootPage:any = this.home;
 

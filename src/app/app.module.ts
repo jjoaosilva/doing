@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { FeedPage } from '../pages/feed/feed';
+import { PerfilPage } from '../pages/perfil/perfil';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     CadastroPage,
-    FeedPage
+    FeedPage,
+    PerfilPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { FeedPage } from '../pages/feed/feed';
     MyApp,
     HomePage,
     CadastroPage,
-    FeedPage
+    FeedPage,
+    PerfilPage
   ],
   providers: [
     StatusBar,
