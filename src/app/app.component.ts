@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { FeedPage } from '../pages/feed/feed';
 import { PerfilPage } from '../pages/perfil/perfil';
+import { AmigosPage } from '../pages/amigos/amigos';
 
 @Component({
   templateUrl: 'app.html'
@@ -17,7 +18,8 @@ export class MyApp {
   feed = FeedPage;
   cadastro = CadastroPage;
   perfil = PerfilPage;
-
+  amigos = AmigosPage;
+  
   rootPage:any = this.home;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {

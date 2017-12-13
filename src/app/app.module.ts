@@ -9,6 +9,8 @@ import { HomePage } from '../pages/home/home';
 import { CadastroPage } from '../pages/cadastro/cadastro';
 import { FeedPage } from '../pages/feed/feed';
 import { PerfilPage } from '../pages/perfil/perfil';
+import { AmigosPage } from '../pages/amigos/amigos';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { PerfilPage } from '../pages/perfil/perfil';
     HomePage,
     CadastroPage,
     FeedPage,
-    PerfilPage
+    PerfilPage,
+    AmigosPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { PerfilPage } from '../pages/perfil/perfil';
     HomePage,
     CadastroPage,
     FeedPage,
-    PerfilPage
+    PerfilPage,
+    AmigosPage
   ],
   providers: [
     StatusBar,

@@ -1,0 +1,39 @@
+page-amigos{
+    .toolbar-background {
+        background-color: #ee6e73;
+    }
+
+    .titulo {
+        text-align: center;
+        color: white;
+
+        font-size: 30px;
+    }
+
+    .chatBotton {
+        font-size: 25px;
+      }   
+
+    .addAmigo{
+        color: #ee6e73;
+        font-size: 50px;
+        margin: 10% auto;
+    }
+
+    .contato{
+        color: #ee6e73;
+        font-size: 35px;
+        margin-left: 5%;
+    }
+
+    .contatoNome{
+        color: #696969;
+        background-color: rgb(241, 241, 241);
+    }
+
+    .descricaoContato{
+        color: #ee6e73;
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+}
