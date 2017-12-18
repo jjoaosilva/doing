@@ -15,22 +15,26 @@ page-perfil{
     
     .fotoPerfil{
 
-        width:100px;
-        height:100px;
-
     }
 
     .UserName{
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .estrela{
+        margin-left: 5%;
+        font-size: 25px;
+        color: #ee6e73;
+    } 
+    
+    .alerta{
+        margin-right: 5%;
         font-size: 25px;
         color: #ee6e73;
     }
     
     .notaAlta{
-        font-size: 30px;
+        font-size: 35px;
     }
     
     .notaBaixa{
@@ -38,10 +42,24 @@ page-perfil{
     }
 
     .follow{
-        font-size: 12px;
+        margin-left: 8%;
+        font-size: 18px;
+    }
+
+    .follow #seguindo{
+        margin-left: 10%;
+        
+        margin-right: 5%;
+        font-size: 18px;
     }
 
     .botaoPerfil{
         color: #ee6e73;
+        margin: auto;
+    }
+
+    .descricao{
+        font-size: 18px;
+        margin: 5% auto;
     }
 }

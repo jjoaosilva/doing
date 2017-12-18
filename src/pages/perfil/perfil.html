@@ -23,62 +23,38 @@
       
       <ion-content>
       
-        <ion-row>
+        
           <ion-item class = "fotoPerfil">
-            <ion-col>
               <ion-avatar item-start>
-                
                   <img src="./assets/imgs/perfil.jpg">
-                
               </ion-avatar>
-            </ion-col>
-          </ion-item>
-
-          <ion-col>
-            <ion-row>
+              <label class = "UserName">User Name</label>
               
-              <ion-col>
-                  <label class = "UserName">User Name </label>
-              </ion-col>
+              <ion-icon class = "estrela" name="ios-star" md="md-star"></ion-icon>
+              <label class = "notaAlta">4.5</label>
+              <label class = "notaBaixa">23</label>
+          </ion-item><br>
+
+          <ion-row class = "follow">
+                  <label >1.5k seguidores </label>  
+                  <label id = seguindo>Seguindo 1.5 </label>   
+          </ion-row>
+
+          <ion-row >
+              <label class = "descricao">Descrição do usuário </label>
+          </ion-row>
+           
+          <ion-row>
+              <button class = "botaoPerfil"ion-button block outline>
+                <ion-icon class = "alerta" name="ios-alert-outline"></ion-icon>
+                <label>Configurar Perfil </label>
+              </button>
+          </ion-row>
                 
-              <ion-col>
-                <ion-icon class = "estrela" name="ios-star-outline"></ion-icon>
-                <label class = "notaAlta">4.5</label>
-                <label class = "notaBaixa">23</label>
-              </ion-col>
             
-            </ion-row>   
-
-            <ion-row>
-                <ion-col>
-                    <label class = "follow">1.5k seguidores</label>
-                </ion-col>
-
-                <ion-col>
-                    <label class = "follow">Seguindo 1.5 </label>
-                </ion-col>
-            </ion-row>
-
-            <ion-row>
-                <label class = "descricao">Descrição do usuário </label>
-            </ion-row>   
-
-            <ion-row>
-                <button class = "botaoPerfil"ion-button block outline>
-                  <ion-row>
-                    <ion-col>
-                        <ion-icon class = "estrela" name="ios-alert-outline"></ion-icon>
-                    </ion-col>
-    
-                    <ion-col>
-                        <label class = "follow">Configurar Perfil </label>
-                    </ion-col>
-                  </ion-row>
-                </button>
-            </ion-row>
             
-          </ion-col>
-        </ion-row>
+          
+        
 
 
 
