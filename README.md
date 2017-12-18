@@ -7,7 +7,7 @@ Rede social baseada em rates.
 * [Ionic](https://ionicframework.com/) - Framework para aplicativos móveis
 * [Angular](https://angular.io/) - Framework Web
 
-### Autor:
+### Autores:
 
 * **José João Silva** - [jjoaosilva](https://github.com/jjoaosilva/)
 * **Rafael Coelho** - [rafaellcoellho](https://github.com/rafaellcoellho/)
