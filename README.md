@@ -11,7 +11,7 @@ Rede social baseada em rates.
 
 * **José João Silva** - [jjoaosilva](https://github.com/jjoaosilva/)
 * **Rafael Coelho** - [rafaellcoellho](https://github.com/rafaellcoellho/)
-* **Wagner Matheus Damasceno** - [LordCommander87](https://github.com/LordCommander87/)
+* **Wagner Matheus Damasceno** - [damascenomatheus](https://github.com/damascenomatheus/)
 
 ## Mock up do app (Android)
 
